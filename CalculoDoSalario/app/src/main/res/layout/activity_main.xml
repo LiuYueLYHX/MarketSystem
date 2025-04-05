@@ -1,19 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/TelaDaSistema"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:background="#585858"
+        android:text="   Cálculo do salário"
+        android:textColor="#FDFDFD"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/ConteudoDaSistema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Digite seu salário (R$)"
+        android:textColor="#535353" />
+
+    <EditText
+        android:id="@+id/Salario"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#FDFDFD"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/TextPercentual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   qual será o percentual"
+        android:textColor="#535353" />
+
+    <RadioGroup
+        android:id="@+id/rbSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="40%"
+            android:textColor="#FDFDFD" />
+
+        <RadioButton
+            android:id="@+id/rb45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="45%"
+            android:textColor="#FDFDFD" />
+
+        <RadioButton
+            android:id="@+id/rb50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50%"
+            android:textColor="#FDFDFD" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  -----------------------------------------------------------------------------------------------------------" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:text="\n\n
+
+     Total:                                                                                         "
+        android:textColor="#FDFDFD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"/>
+
+</LinearLayout>
