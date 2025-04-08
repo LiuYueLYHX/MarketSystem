@@ -106,7 +106,7 @@ Todos os projetos seguem um padrão de navegação entre três telas utilizando 
 
 ---
 
-## 📌 Como Rodar os Projetos
+##  Como Rodar os Projetos
 1. Clone este repositório
 2. Abra no Android Studio
 3. Selecione o projeto desejado
