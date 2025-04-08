@@ -4,6 +4,11 @@ Este repositório contém **5 aplicações Android** desenvolvidas como parte de
 
 ---
 
+## Integrante ##
+**Eduardo Chen Zou**  
+Curso: CCOMP3
+RA: 24025817
+
 ##  Projeto 01 - Sistema de Mercado
 
 **Descrição:**
