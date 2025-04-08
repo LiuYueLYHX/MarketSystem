@@ -4,84 +4,76 @@ Este repositório contém **5 aplicações Android** desenvolvidas como parte de
 
 ---
 
-##  Projeto 01 - Sistema de Compras com CheckBox
+##  Projeto 01 - Sistema de Mercado
 
 **Descrição:**
-Uma aplicação onde o usuário pode selecionar produtos utilizando CheckBoxes e, ao final, visualizar o valor total da compra.
-
-**Produtos disponíveis:**
-- Arroz 1 Kg (R$ 2,69)
-- Leite longa vida (R$ 2,70)
-- Carne Friboi (R$ 16,70)
-- Feijão 1 Kg (R$ 3,38)
-- Refrigerante 2L (R$ 3,00)
+Este projeto Android simula um **sistema simples de compras** onde o usuário pode marcar os produtos que deseja adquirir através de **CheckBoxes**. Ao clicar no botão de calcular, o aplicativo irá somar os valores dos itens selecionados e exibir o **valor total da compra**.
 
 **Funcionalidades:**
-- Marcar e desmarcar produtos
-- Calcular e exibir o valor total da compra
+- Marcar e desmarcar produtos conforme interesse do usuário
+- Somar os preços dos produtos selecionados
+- Exibir o total da compra de forma clara e direta
 
 ---
 
-##  Projeto 02 - Reajuste de Salário
+##  Projeto 02 - Calculo Do Salário
 
 **Descrição:**
-App que calcula o novo salário de um funcionário com base em um percentual de aumento escolhido: **40%, 45% ou 50%.**
+Este projeto Android é um **simulador de reajuste salarial**. O usuário insere seu salário atual e escolhe um dos percentuais de aumento disponíveis: **40%**, **45%** ou **50%**. Ao clicar no botão de calcular, o aplicativo exibe o **novo salário reajustado**.
 
 **Funcionalidades:**
-- Campo de entrada para o salário atual
-- Seleção de percentual via RadioButtons
-- Cálculo do salário reajustado
+- Entrada do salário atual do funcionário
+- Seleção do percentual de aumento: 40%, 45% ou 50%
+- Cálculo e exibição do novo salário reajustado
 
 ---
 
-##  Projeto 03 - Cadastro de Clientes (Tem de Tudo)
+##  Projeto 03 - Loja Virtual
 
 **Descrição:**
-Aplicativo para registrar clientes em eventos ou lojas físicas da loja "Tem de Tudo".
+Este é um aplicativo Android desenvolvido para a loja virtual **Tem de Tudo** (www.temdetudo.com.br). O app foi criado para registrar novos clientes durante eventos ou visitas às lojas físicas, permitindo um processo de cadastro rápido e eficiente.
 
-**Fluxo:**
-1. **Activity 1:** Boas-vindas + imagem da logomarca
-2. **Activity 2:** Formulário de nome com TextInputLayout
-3. **Activity 3:** Confirmação com mensagem personalizada e imagem de sucesso
 
-**Requisitos atendidos:**
-- 3 Activities
-- Uso de TextInputLayout, TextView, ImageView e Button
-- Navegação entre telas
-- Exibição dinâmica do nome do cliente
+**Funcionalidades**
+
+- Tela inicial com logomarca da loja.
+- Cadastro do nome do cliente com campo de texto (TextInputLayout).
+- Mensagem de boas-vindas personalizada com o nome do cliente.
+- Navegação entre três telas (Activities).
+- Imagens decorativas e de confirmação de cadastro.
+- Botão para retornar ao início e cadastrar novos clientes.
 
 ---
 
-##  Projeto 04 - Registro de Pedidos (Lanche Fácil)
+##  Projeto 04 - Lanche Fácil
 
 **Descrição:**
-App para registrar pedidos de clientes com nome e tipo de lanche.
+Este é um aplicativo Android desenvolvido para a lanchonete **Lanche Fácil** (www.lanchefacil.com.br). O app foi criado para facilitar o registro de pedidos de clientes em eventos e lojas físicas.
 
-**Fluxo:**
-1. **Activity 1:** Boas-vindas + logomarca
-2. **Activity 2:** Formulário de nome e tipo de lanche
-3. **Activity 3:** Resumo do pedido com mensagem e imagem
 
 **Funcionalidades:**
-- Seleção de lanche
-- Campo de texto para nome
-- Exibição dinâmica do pedido
+
+- Tela de boas-vindas com a logomarca da lanchonete.
+- Cadastro do pedido com nome do cliente e seleção do lanche.
+- Exibição do resumo do pedido com informações dinâmicas.
+- Navegação entre 3 telas com botões.
+- Imagens ilustrativas em todas as telas.
+- Botão de retorno para cadastro de novos pedidos.
 
 ---
 
-##  Projeto 05 - Pedido em Pizzaria
+##  Projeto 05 - Loja Pizza
 
 **Descrição:**
-Aplicativo que permite ao usuário montar um pedido de pizza com sabor, tamanho e forma de pagamento.
-
-**Fluxo:**
-1. **Activity 1:** Seleção de sabores (CheckBox)
-2. **Activity 2:** Escolha do tamanho e pagamento (RadioButtons)
-3. **Activity 3:** Resumo do pedido com todos os dados e valor total
+Este é um aplicativo Android que simula pedidos de uma pizzaria, onde o usuário pode escolher o tipo de pizza, o tamanho e o método de pagamento. Ao final, o app exibe um resumo completo com todos os detalhes do pedido, incluindo o valor total.
 
 **Funcionalidades:**
-- Combinação dinâmica das escolhas
-- Cálculo de valor conforme o tamanho da pizza
+- Seleção de tipo de pizza com múltiplas opções (CheckBox)
+- Escolha do tamanho da pizza (pequena, média, grande)
+- Escolha do método de pagamento (dinheiro, cartão)
+- Cálculo automático do valor total com base no tamanho
+- Exibição de um resumo com todos os dados do pedido
+- Navegação simples entre as telas
 
 ---
 
@@ -89,17 +81,8 @@ Aplicativo que permite ao usuário montar um pedido de pizza com sabor, tamanho 
 - Java / Kotlin (conforme preferência)
 - Android Studio
 - Layouts XML
-- Componentes: `CheckBox`, `RadioButton`, `TextInputLayout`, `TextView`, `ImageView`, `Button`, `Intent`
-
 ---
 
-##  Imagens
-Cada projeto inclui imagens temáticas nas três Activities, como:
-- Logomarca da loja/lanchonete
-- Ilustrações de cadastro ou cardápio
-- Imagens de confirmação ou pedido concluído
-
----
 
 ##  Navegação
 Todos os projetos seguem um padrão de navegação entre três telas utilizando **Intents**, passando dados entre Activities de forma clara e funcional.
