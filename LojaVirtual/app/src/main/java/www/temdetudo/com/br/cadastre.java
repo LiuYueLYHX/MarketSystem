@@ -30,7 +30,7 @@ public class cadastre extends AppCompatActivity {
             String getpassword = password.getText().toString();
             String getConfirmPassword = confirmPassword.getText().toString();
             if(getConfirmPassword.equals(getpassword)) {
-                if(!getNome.equals("")||!getConfirmPassword.equals("")) {
+                if(!getNome.equals("")&&!getConfirmPassword.equals("")) {
                         Intent intent = new Intent(this, confirmacao.class);
                         Bundle bundle = new Bundle();
                         bundle.putString("nome", getNome);
