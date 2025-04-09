@@ -19,6 +19,13 @@ Este projeto Android simula um **sistema simples de compras** onde o usuário po
 - Somar os preços dos produtos selecionados
 - Exibir o total da compra de forma clara e direta
 
+## Como Baixar o APK
+
+Se você deseja baixar e instalar o APK do nosso aplicativo, você pode encontrar a versão mais recente nos seguintes sites:
+
+- **[APK](https://github.com/LiuYueLYHX/MarketSystem/releases/download/compras_v1.0/app-debug.apk)**
+- **[ZIP](https://github.com/LiuYueLYHX/MarketSystem/archive/refs/tags/compras_v1.0.zip)**
+
 ---
 
 ##  Projeto 02 - Calculo Do Salário
@@ -30,6 +37,13 @@ Este projeto Android é um **simulador de reajuste salarial**. O usuário insere
 - Entrada do salário atual do funcionário
 - Seleção do percentual de aumento: 40%, 45% ou 50%
 - Cálculo e exibição do novo salário reajustado
+
+- - ## Como Baixar o APK
+
+Se você deseja baixar e instalar o APK do nosso aplicativo, você pode encontrar a versão mais recente nos seguintes sites:
+
+- **[APK](https://github.com/LiuYueLYHX/MarketSystem/releases/download/salario_v1.0/app-debug.apk)**
+- **[ZIP](https://github.com/LiuYueLYHX/MarketSystem/archive/refs/tags/salario_v1.0.zip)**
 
 ---
 
@@ -47,6 +61,13 @@ Este é um aplicativo Android desenvolvido para a loja virtual **Tem de Tudo** (
 - Navegação entre três telas (Activities).
 - Imagens decorativas e de confirmação de cadastro.
 - Botão para retornar ao início e cadastrar novos clientes.
+- 
+## Como Baixar o APK
+
+Se você deseja baixar e instalar o APK do nosso aplicativo, você pode encontrar a versão mais recente nos seguintes sites:
+
+- **[APK](https://github.com/LiuYueLYHX/MarketSystem/releases/download/cadastro_v1.0/app-debug.apk)**
+- **[ZIP](https://github.com/LiuYueLYHX/MarketSystem/archive/refs/tags/cadastro_v1.0.zip)**
 
 ---
 
@@ -65,6 +86,13 @@ Este é um aplicativo Android desenvolvido para a lanchonete **Lanche Fácil** (
 - Imagens ilustrativas em todas as telas.
 - Botão de retorno para cadastro de novos pedidos.
 
+## Como Baixar o APK
+
+Se você deseja baixar e instalar o APK do nosso aplicativo, você pode encontrar a versão mais recente nos seguintes sites:
+
+- **[APK](https://github.com/LiuYueLYHX/MarketSystem/releases/download/pedido_lanchonete_v1.0/app-debug.apk)**
+- **[ZIP](https://github.com/LiuYueLYHX/MarketSystem/archive/refs/tags/pedido_lanchonete_v1.0.zip)**
+
 ---
 
 ##  Projeto 05 - Loja Pizza
@@ -80,6 +108,14 @@ Este é um aplicativo Android que simula pedidos de uma pizzaria, onde o usuári
 - Exibição de um resumo com todos os dados do pedido
 - Navegação simples entre as telas
 
+## Como Baixar o APK
+
+Se você deseja baixar e instalar o APK do nosso aplicativo, você pode encontrar a versão mais recente nos seguintes sites:
+
+- **[APK](https://github.com/LiuYueLYHX/MarketSystem/releases/download/pedido_pizzaria_v1.0/app-debug.apk)**
+- **[ZIP](https://github.com/LiuYueLYHX/MarketSystem/archive/refs/tags/pedido_pizzaria_v1.0.zip)**
+
+
 ---
 
 ##  Tecnologias Utilizadas
@@ -93,9 +129,3 @@ Este é um aplicativo Android que simula pedidos de uma pizzaria, onde o usuári
 Todos os projetos seguem um padrão de navegação entre três telas utilizando **Intents**, passando dados entre Activities de forma clara e funcional.
 
 ---
-
-##  Como Rodar os Projetos
-1. Clone este repositório
-2. Abra no Android Studio
-3. Selecione o projeto desejado
-4. Execute em um emulador ou dispositivo Android físico
